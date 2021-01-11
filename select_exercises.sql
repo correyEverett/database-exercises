@@ -24,3 +24,8 @@ SELECT 'Less than 20 million in sales' AS '';
 SELECT name
 FROM albums
 WHERE sales < 20;
+
+SELECT 'Classified as Rock genre' AS '';
+SELECT name
+FROM albums
+WHERE genre = 'Rock';
