@@ -9,3 +9,8 @@ SELECT 'Release date of Sgt. Pepper''s Lonely Hearts Club Band' AS '';
 SELECT release_date
 FROM albums
 WHERE name = 'Sgt. Pepper''s Lonely Hearts Club Band';
+
+SELECT 'Genre of the song Nevermind' AS '';
+SELECT genre
+FROM albums
+WHERE name = 'Nevermind';
