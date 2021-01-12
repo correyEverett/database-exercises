@@ -10,3 +10,6 @@ WHERE release_date < 1980;
 SELECT id, name AS 'Michael Jackson Albums'
 FROM albums
 WHERE artist = 'Michael Jackson' ;
+
+UPDATE albums
+SET sales = (sales * 10);
