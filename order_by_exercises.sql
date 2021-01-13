@@ -8,7 +8,8 @@ WHERE gender = 'M'
 ORDER BY last_name, first_name;
 
 SELECT * FROM employees
-WHERE last_name LIKE 'E%';
+WHERE last_name LIKE 'E%'
+ORDER BY emp_no;
 
 DESCRIBE employees;
 
