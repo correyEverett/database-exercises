@@ -18,7 +18,6 @@ VALUES ('Jay-Z', 'Reasonable Doubt');
 
 INSERT INTO albums (artist, name, release_date, genre, sales)
 VALUES ('The Miseducation of Lauryn Hill', 'Lauryn Hill', 1998, 'R&B', 22.3),
-       ('2Pac', 'All Eyez on Me', 1996, 'Hip-Hop', 5.8),
        ('Fugees', 'The Score', 1996, 'Hip-Hop', 10),
        ('Outkast', 'Aquemeni', 1998, 'Hip-Hop', 15),
        ('Kanye West', 'The College Dropout', 2004, 'Hip-Hop', 12),
